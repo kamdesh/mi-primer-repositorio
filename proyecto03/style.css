@@ -1,0 +1,28 @@
+body { font-family: Arial; background: #f4f4f4; text-align: center; }
+
+h1 { color: blue; }
+
+footer {
+  margin-top: 20px;
+  padding: 10px;
+  background: #333;
+  color: white;
+}
+
+button {
+  background: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+h1 {
+  animation: fadeIn 1s ease-in;
+}
